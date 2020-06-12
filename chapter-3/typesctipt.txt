@@ -1,9 +1,0 @@
-ts-node
-コンパイル&実行する
-
-npx ts-node ファイル名
-
-ts-node-dev
-コンパイル&実行&監視
-
-npx ts-node-dev --respawn ファイル名

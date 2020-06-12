@@ -1,0 +1,17 @@
+tsconfig.jsonは自作
+# コマンド
+touch tsconfig.json
+
+tslint.json
+# コマンド
+./node_modules/.bin/tslint --init
+
+ts-node
+コンパイル&実行する
+# コマンド
+npx ts-node ファイル名
+
+ts-node-dev
+コンパイル&実行&監視
+# コマンド
+npx ts-node-dev --respawn ファイル名
